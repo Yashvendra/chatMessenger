@@ -32,8 +32,4 @@ Connection will be established if no error is thrown and client window will popu
 Communication can be done now!
 
 
-### Note
-Maximum number of clients that can connect to the server at a time = 100
-
-
 ## Happy Chatting ♥️
