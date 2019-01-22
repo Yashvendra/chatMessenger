@@ -1,4 +1,4 @@
-package Applets;
+
 import java.io.*;
 import java.net.*;
 import java.awt.*;
@@ -31,12 +31,12 @@ userText.setText("");
 add(userText, BorderLayout.NORTH);
 chatWindow=new JTextArea();
 add(new JScrollPane(chatWindow),BorderLayout.CENTER);
-setSize(300,150);
+setSize(400,400);
 setVisible(true);
 
 
 }
-//connect to server
+//starting the client window
 
 public void startRunning(){
 try{
