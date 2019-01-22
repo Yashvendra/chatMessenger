@@ -1,4 +1,4 @@
-package Applets;
+
 
 import java.io.*;
 import java.net.*;
@@ -18,7 +18,7 @@ private Socket connection;
 
 //constructor
 public Server(){
-  super("Y@$# Instatnt Messenger");
+  super("Y@$# Messenger");
     userText=new JTextField();
     
 //Before connection setup u can not send message, threfore fistly the textfield is noneditible
@@ -36,7 +36,7 @@ public Server(){
     add(userText,BorderLayout.NORTH);
     chatWindow=new JTextArea();
     add(new JScrollPane(chatWindow));
-    setSize(300,150);
+    setSize(400,400);
     setVisible(true);
 
 }
@@ -44,14 +44,14 @@ public Server(){
 //set up and run the server
 public void startRunning(){
 /**For creating the server
- * setup first the port no. here it is 6789
+ * setup first the port no. here it is 1234
  * and the max no. of people can wait to talk is 100 at once
  */ 
 
 
 try{
 
-server = new ServerSocket(6789,100);
+server = new ServerSocket(1234,100);
 while(true){
    try{
        //connect and have conversation
