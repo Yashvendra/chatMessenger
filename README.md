@@ -2,7 +2,7 @@
 ### Welcome Everyone!!
 
 
-I have created a simple 💬 Chat Messenger using networking libraries of Java. For the front end I have used JFrame class of Applets.
+I have created a simple 💬 Chat Messenger using networking libraries of Java. For the front end I have used JFrame class of Swing.
 
 ## Usage
 ### 1. Compile the `TestServer.java` and `ClientTest.java` by `javac` compiler. 
