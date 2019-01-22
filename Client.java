@@ -60,7 +60,7 @@ close();
 //connect to the server
 public void connectToServer()throws IOException{
 showMessage("connecting...");
-connection =new Socket(InetAddress.getByName(serverIP), 6789);
+connection =new Socket(InetAddress.getByName(serverIP), 1234);
 showMessage("Connected to: "+connection.getInetAddress().getHostName());
 }
 
@@ -83,7 +83,7 @@ showMessage("\n"+message);
 
 }
 catch(ClassNotFoundException e){
-showMessage("\n i dont know the object type");
+showMessage("\n Didn't get that!");
 }
 }while(!message.equals("SERVER: END"));
 
