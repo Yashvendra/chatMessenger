@@ -1,6 +1,3 @@
-package Applets;
-
-
 import javax.swing.JFrame;
 
 public class ClientTest {
