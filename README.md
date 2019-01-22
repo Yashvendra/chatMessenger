@@ -6,7 +6,7 @@ I have created a simple 💬 Chat Messenger using networking libraries of Java. 
 
 ## Usage
 ### 1. Set the host IP in `ClientTest.java`.
-I have set it to local host, you can set it to the server's public IP if you want.
+I have set it to local host, you can set it to the Host's public IP if you want.
 ```java
 import javax.swing.JFrame;
 
@@ -35,8 +35,6 @@ On Server Machine:
 java TestServer
 ```
 You will have server window opened which starts listening for connections on port 1234.
-
-
 
 On Client Machine:
 ```shell
