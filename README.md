@@ -20,7 +20,8 @@ On Server Machine:
 ```shell
 java TestServer
 ```
-You will have server window opened which starts listening for connections on port 1234
+You will have server window opened which starts listening for connections on port 1234.
+
 
 
 On Client Machine:
